@@ -1,5 +1,5 @@
-
-resource "aws_lambda_function" "lambda_clicklogger" {
+/*
+// resource "aws_lambda_function" "lambda_clicklogger" {
   filename      = "${var.lambda_source_zip_path}"
   function_name = "${var.app_prefix}-lambda"
   role          = "${aws_iam_role.click_logger_lambda_role.arn}"
@@ -65,4 +65,4 @@ output "lambda-clicklogger" {
 
 output "lambda-clicklogger-authorzer" {
   value = "${aws_lambda_function.lambda_clicklogger_authorizer}"
-}
+} */
