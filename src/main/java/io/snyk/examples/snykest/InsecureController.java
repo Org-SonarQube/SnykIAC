@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * @author Joe Grandja
  */
+/*
 @Controller
 public class InsecureController {
 
@@ -44,3 +45,5 @@ public class InsecureController {
 	}
 
 }
+
+*/
