@@ -1,4 +1,4 @@
-package io.snyk.examples.snykest;
+/* package io.snyk.examples.snykest;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,3 +11,4 @@ public class GreetingController {
     return "Hello World!";
   }
 }
+*/
