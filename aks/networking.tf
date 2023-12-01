@@ -1,3 +1,5 @@
+/*
+
 resource "azurerm_firewall_application_rule_collection" "denied" {
   name                = "testcollection"
   azure_firewall_name = azurerm_firewall.example.name
@@ -33,7 +35,7 @@ resource "azurerm_firewall_application_rule_collection" "denied" {
 
 }
 
-resource "azurerm_firewall_network_rule_collection" "denied" {
+
   name                = "testcollection"
   azure_firewall_name = azurerm_firewall.example.name
   resource_group_name = azurerm_resource_group.example.name
@@ -126,3 +128,4 @@ resource "azurerm_network_security_rule" "denied_2" {
   action                     = "Allow"
   destination_address_prefix = "0.0.0.0/0"
 }
+*/
