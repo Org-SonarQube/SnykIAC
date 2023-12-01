@@ -33,7 +33,9 @@ resource "azurerm_firewall_application_rule_collection" "denied" {
     }
   }
 
-}
+*/
+
+/*
 
 
   name                = "testcollection"
@@ -128,4 +130,5 @@ resource "azurerm_network_security_rule" "denied_2" {
   action                     = "Allow"
   destination_address_prefix = "0.0.0.0/0"
 }
+*/
 */
