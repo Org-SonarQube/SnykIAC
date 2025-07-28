@@ -1,2 +1,1 @@
-#testing
-#testing
+Smart scan testing
